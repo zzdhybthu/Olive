@@ -1,0 +1,63 @@
+Data Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 16 entries, 0 to 15
+Data columns (total 12 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   ID        16 non-null     object 
+ 1   yellow    16 non-null     float64
+ 2   green     16 non-null     float64
+ 3   brown     16 non-null     float64
+ 4   glossy    16 non-null     float64
+ 5   transp    16 non-null     float64
+ 6   syrup     16 non-null     float64
+ 7   Acidity   16 non-null     float64
+ 8   Peroxide  16 non-null     float64
+ 9   K232      16 non-null     float64
+ 10  K270      16 non-null     float64
+ 11  DK        16 non-null     float64
+dtypes: float64(11), object(1)
+memory usage: 1.6+ KB
+
+Data Description:
+          yellow      green      brown    glossy     transp      syrup    Acidity   Peroxide       K232       K270         DK
+count  16.000000  16.000000  16.000000  16.00000  16.000000  16.000000  16.000000  16.000000  16.000000  16.000000  16.000000
+mean   50.875000  33.512500  12.331250  80.81250  78.193750  47.975000   0.311875  13.252500   1.708250   0.118144  -0.001750
+std    19.458623  23.486986   5.128706   6.18804   8.307384   3.065398   0.176568   3.345141   0.248731   0.023707   0.002236
+min    21.400000   9.700000   8.000000  67.70000  63.500000  42.300000   0.150000   8.140000   1.331000   0.085000  -0.005000
+25%    32.075000  12.075000  10.025000  77.80000  74.175000  46.150000   0.190000  10.950000   1.536000   0.101500  -0.003250
+50%    52.800000  31.150000  10.800000  80.40000  77.200000  47.500000   0.260000  12.400000   1.653500   0.116000  -0.002000
+75%    68.800000  54.700000  11.975000  85.37500  84.875000  50.650000   0.312500  15.375000   1.893250   0.128500   0.000000
+max    73.500000  73.400000  28.400000  89.90000  89.700000  52.800000   0.730000  19.400000   2.222000   0.168000   0.003000
+
+Missing Values:
+ID          0
+yellow      0
+green       0
+brown       0
+glossy      0
+transp      0
+syrup       0
+Acidity     0
+Peroxide    0
+K232        0
+K270        0
+DK          0
+
+
+.
+|-- dataset
+|-- description
+|-- example
+|-- report
+|-- result
+|   |-- analysis
+|   |-- eda
+|   `-- selection
+`-- src
+    |-- analysis.py
+    |-- datatype.py
+    |-- eda.py
+    |-- main.py
+    |-- preprocess.py
+    `-- selection.py
